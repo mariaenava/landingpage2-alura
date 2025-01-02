@@ -1,6 +1,7 @@
 # Front-end | Projeto 2
 ## Cursos
 - HTML e CSS: cabeçalho, footer e variáveis CSS
+- HTML e CSS: trabalhando com responsividade e publicação de projetos
 ## Objetivos
 - Praticar estrutura e semântica das linguagens;
 - Praticar estruturação da página com HTML;
