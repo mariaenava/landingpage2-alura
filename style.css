@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #22D4F4;
+    --cor-clara: white;
+    --cor-escura: black;
+    --cor-hover: #272727;
+
+    --familia-titulo: 'Krona One', sans-serif;
+    --familia-texto: 'Montserrat', sans-serif;
+
+    --tamanho-titulo: 36px;
+    --tamanho-texto: 24px;
+
+    --peso-regular: 400;
+    --peso-semibold: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor-escura);
+
+    color: var(--cor-clara);
+    font-family: var(--familia-texto);
+    font-size: var(--tamanho-texto);
+    font-weight: var(--peso-regular);
+
+}
+
+header {
+    margin: 2% 10% 0%;
+}
+
+#cabecalho {
+    display: flex;
+    gap: 80px;
+}
+
+.link-header {
+    color: var(--cor-principal);
+    font-weight: var(--peso-semibold);
+    text-decoration: none;
+}
+
+main {
+    margin: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    width: 85vh;
+}
+
+#titulo {
+    font-family: var(--familia-titulo);
+    font-size: var(--tamanho-titulo);
+}
+
+#destaque {
+    color: var(--cor-principal);
+}
+
+#subtitulo {
+    font-family: var(--familia-titulo);
+    font-size: var(--tamanho-texto);
+    font-weight: var(--peso-regular);
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    width: 380px;
+    padding: 15px 0px;
+
+    border: 2px solid var(--cor-principal);
+    border-radius: 8px;
+
+    color: var(--cor-clara);
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: var(--cor-hover);
+}
+
+
+footer {
+    background-color: var(--cor-principal);
+    padding: 1% 0%;
+
+    color: var(--cor-escura);
+    text-align: center;
+}
+
+/*Tela menor que computador*/
+
+@media (max-width:1170px) {
+    header {
+        margin: 2% 5% 0%;
+    }
+    
+    #cabecalho {
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        margin: 5% 5%;
+        width: 80%;
+
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    #conteudo {
+        width: 90%;
+    }
+
+    #links {
+        text-align: center;
+    }
+
+    #foto {
+        width: 80%;
+    }
+}
+
+/*Tela maior que computador*/
+
+@media (min-width:1920px) {
+    header {
+        margin: 2% 20% 0%;
+    }
+
+    main {
+        margin: 5% 20%;
+        display: flex;
+        gap: 40px;
+    }
+}
