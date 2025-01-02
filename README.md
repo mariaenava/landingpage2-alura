@@ -9,8 +9,8 @@
 - Praticar uso de variáveis no CSS.
 ## Projeto
 - Reproduzir duas telas de landing page utilizando apenas HTML e CSS.
-  
-![image](![image](https://github.com/user-attachments/assets/fe063614-359e-4d1f-bbe7-4efb09a8219d))
-![image](![image](![image](https://github.com/user-attachments/assets/502de19f-c917-45cc-a6bf-cb9923417545))
-)
+
+![image](https://github.com/user-attachments/assets/4a57a3a8-ac49-434b-bc87-798345ef48f3)
+![image](https://github.com/user-attachments/assets/dcc7a400-0821-4eee-b264-4cec84b0ecbb)
+
 OBS: O design foi disponibilizado pela Alura via Figma.
